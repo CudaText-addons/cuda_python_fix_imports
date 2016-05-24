@@ -1,0 +1,22 @@
+[info]
+title=Python Fix Imports
+desc=Checks and sorts import statement in current Python file (based on fiximports.py script)
+type=cudatext-plugin
+subdir=cuda_python_fix_imports
+homepage=https://github.com/CudaText-addons/cuda_python_fix_imports
+
+[item1]
+section=commands
+caption=Python Fix Imports\Format
+method=run
+lexers=Python
+
+[item2]
+section=commands
+caption=Python Fix Imports\Configure
+method=config_global
+
+[item3]
+section=commands
+caption=Python Fix Imports\Configure (local)
+method=config_local
